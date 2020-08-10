@@ -164,7 +164,7 @@ call Highlight("Comment", s:grey, s:none, s:italic)
 call Highlight("Label", s:yellow, s:none, s:none)
 call Highlight("String", s:yellow, s:none, s:none)
 
-call Highlight("Todo", s:yellow, s:dark_grey, s:bold)
+call Highlight("Todo", s:light_grey, s:none, s:bold)
 call Highlight("Underlined", s:none, s:none, s:underline)
 
 call Highlight("Pmenu", s:light_blue, s:darker_grey, s:none)
