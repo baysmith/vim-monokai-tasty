@@ -31,6 +31,7 @@ let s:orange = { "cterm": 208, "gui": "#FF9700" }
 " stand out.
 let s:black = { "cterm": 0, "gui": "#000000" }
 let s:bright_yellow = { "cterm": 11, "gui": "yellow" }
+let s:dark_yellow = { "cterm": 11, "gui": "#606000" }
 
 " Monochrome in order light -> dark
 let s:white = { "cterm": 231, "gui": "#ffffff" }
@@ -137,8 +138,8 @@ call Highlight("gitcommitSummary", s:white, s:none, s:none)
 call Highlight("gitcommitOverflow", s:magenta, s:none, s:none)
 
 call Highlight("SpecialKey", s:dark_grey, s:darker_grey, s:none)
-call Highlight("IncSearch", s:black, s:bright_yellow, s:bold)
-call Highlight("Search", s:black, s:bright_yellow, s:bold)
+call Highlight("IncSearch", s:white, s:dark_yellow, s:bold)
+call Highlight("Search", s:white, s:dark_yellow, s:bold)
 
 call Highlight("Identifier", s:light_blue, s:none, s:none)
 call Highlight("Question", s:light_blue, s:none, s:none)
