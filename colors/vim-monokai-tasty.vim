@@ -37,6 +37,7 @@ let s:dark_yellow = { "cterm": 11, "gui": "#606000" }
 let s:white = { "cterm": 231, "gui": "#ffffff" }
 let s:light_grey = { "cterm": 250, "gui": "#bcbcbc" }
 let s:grey = { "cterm": 245, "gui": "#8a8a8a" }
+let s:grey_45 = { "cterm": 245, "gui": "#737373" }
 let s:dark_grey = { "cterm": 59, "gui": "#5f5f5f" }
 let s:darker_grey = { "cterm": 238, "gui": "#444444" }
 let s:light_charcoal = { "cterm": 238, "gui": "#2b2b2b" }
@@ -103,7 +104,7 @@ call Highlight("TabLineSel", s:none, s:charcoal, s:bold)
 call Highlight("SignColumn", s:none, s:none, s:none)
 call Highlight("NonText", s:darker_grey, s:none, s:none)
 call Highlight("TabLineFill", s:none, s:darker_grey, s:none)
-call Highlight("LineNr", s:dark_grey, s:none, s:none)
+call Highlight("LineNr", s:grey_45, s:none, s:none)
 call Highlight("VertSplit", s:darker_grey, s:charcoal, s:none)
 call Highlight("StatusLine", s:white, s:dark_grey, s:none)
 call Highlight("StatusLineNC", s:light_grey, s:darker_grey, s:none)
